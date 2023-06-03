@@ -123,7 +123,7 @@ final class MovieDetailTableViewHeader: UIView {
     }
 }
 
-// MARK: - Extension with using constant's
+// MARK: - Constant's
 
 extension MovieDetailTableViewHeader {
     

@@ -7,10 +7,3 @@ struct EndPoint {
         return url
     }
 }
-
-
-
-// i
-
-// w.
-// ttp://

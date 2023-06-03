@@ -3,7 +3,6 @@ import UIKit
 
 protocol AssemblyBuilderProtocol {
     
-    // place - flow
     func createMovieListModule(router: RouterMovieProtocol) -> UIViewController
     func createObjectModule(data: Movie?, router: RouterMovieProtocol, completionAuth: @escaping () -> Void) -> UIViewController
     func createLogInModule(router: RouterAuthProtocol, completionAuth: @escaping () -> Void) -> UIViewController

@@ -3,7 +3,6 @@ import UIKit
 protocol NetworkServiceProtocol {
     
     func getDataFromUrl<T: Codable>(url: URL, completion: @escaping BackendOperationHandler<T>)
-    
     func getMovieData(film: String, competion: @escaping BackendOperationHandler<Movie>)
     
 }

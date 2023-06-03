@@ -1,9 +1,13 @@
 import Foundation
 
+// MARK: - Input
+
 protocol MovieDetailViewProtocol: AnyObject {
     
     func setData(data: Movie?)
 }
+
+// MARK: - Output
 
 protocol MovieDetailPresenterProtocol: AnyObject {
     
@@ -26,7 +30,6 @@ final class MovieDetailPresenter: MovieDetailPresenterProtocol {
     weak var view: MovieDetailViewProtocol?
     let networkService: NetworkServiceProtocol!
     let router: RouterMovieProtocol!
-    let alertService = AlertService()
     let completionAuth: () -> Void
     
     required init(

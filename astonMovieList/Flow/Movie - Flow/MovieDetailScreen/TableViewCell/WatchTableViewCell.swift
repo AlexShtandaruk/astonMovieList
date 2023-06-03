@@ -1,5 +1,7 @@
 import UIKit
 
+// MARK: - Watch button delegate TableView cell did selected
+
 protocol WatchTableViewCellDidSelected: AnyObject {
     
     func watchTableViewCellDidSelected()
@@ -64,6 +66,8 @@ final class WatchTableViewCell: UITableViewCell {
         delegate?.watchTableViewCellDidSelected()
     }
 }
+
+// MARK: - Constant's
 
 extension WatchTableViewCell {
     

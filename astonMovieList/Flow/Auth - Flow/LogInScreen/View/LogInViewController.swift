@@ -254,7 +254,7 @@ extension LogInViewController: UITextFieldDelegate {
     
 }
 
-// MARK: - extension - Constant
+// MARK: - Сonstant's
 
 extension LogInViewController {
     

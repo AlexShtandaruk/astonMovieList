@@ -112,8 +112,3 @@ final class MovieListPresenter: MovieListViewPresenterProtocol {
         router.showObjects(data: data)
     }
 }
-
-
-
-//let objects = self.data?.objects?.filter({ $0.type == data?.type })
-//router.showObjects(data: objects)

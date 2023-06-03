@@ -29,10 +29,6 @@ final class CategoryTableViewHeader: UIView {
     
     private lazy var factor: CGFloat = 10
     
-    private var containerViewHeight = NSLayoutConstraint()
-    private var titleHeight = NSLayoutConstraint()
-    private var titleBottom = NSLayoutConstraint()
-    
     // MARK: - SET UI
     
     func setUI() -> UIView {
@@ -126,7 +122,6 @@ extension CategoryTableViewHeader: UICollectionViewDataSource {
 extension CategoryTableViewHeader: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print("collectionView header pressed group - \(indexPath.row)")
         delegate?.didSelectedModel(genre: data[indexPath.row])
         collectionView.selectItem(at: indexPath, animated: true, scrollPosition: .bottom)
     }

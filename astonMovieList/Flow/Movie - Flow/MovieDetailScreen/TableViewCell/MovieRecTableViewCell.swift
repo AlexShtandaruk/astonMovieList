@@ -110,6 +110,8 @@ extension MovieRecTableViewCell: UICollectionViewDelegateFlowLayout {
     }
 }
 
+// MARK: - Constant's
+
 extension MovieRecTableViewCell {
     
     struct Constant {

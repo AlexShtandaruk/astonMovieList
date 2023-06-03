@@ -176,7 +176,7 @@ extension MovieDetailViewController: MovieDetailTableViewDidSelected {
     }
 }
 
-// MARK: - extension - MovieDetailTableViewDidSelected
+// MARK: - extension - WatchTableViewCellDidSelected
 
 extension MovieDetailViewController: WatchTableViewCellDidSelected {
     

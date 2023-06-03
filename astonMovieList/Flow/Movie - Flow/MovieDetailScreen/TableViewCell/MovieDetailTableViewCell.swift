@@ -189,7 +189,7 @@ final class MovieDetailTableViewCell: UITableViewCell {
     }
 }
 
-
+// MARK: - Constant's
 
 extension MovieDetailTableViewCell {
     

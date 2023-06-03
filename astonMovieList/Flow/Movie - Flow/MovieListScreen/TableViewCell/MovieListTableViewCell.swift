@@ -175,6 +175,8 @@ final class MovieListTableViewCell: UITableViewCell {
     }
 }
 
+// MARK: - Сonstant's
+
 extension MovieListTableViewCell {
     struct Constant {
         static let year = "movieListTableViewCell.year"
