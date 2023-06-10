@@ -116,12 +116,8 @@ extension MovieListViewController: ViewControllerProtocol {
         movieListTableView.backgroundColor = CColor.custBlack
         movieListTableView.separatorColor = .clear
         
-        setView(subView: subView)
+        setView(view: view, subView: subView)
         setConstraint()
-    }
-    
-    func setView(subView: [UIView]) {
-        for i in subView { view.addSubview(i) }
     }
     
     func setConstraint()  {

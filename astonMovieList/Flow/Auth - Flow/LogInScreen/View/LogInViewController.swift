@@ -109,6 +109,7 @@ extension LogInViewController: LogInViewProtocol {
 // MARK: - extension - ViewControllerProtocol
 
 extension LogInViewController: ViewControllerProtocol {
+    
     func setUI() {
         view.backgroundColor = CColor.custBlack
         
@@ -177,13 +178,10 @@ extension LogInViewController: ViewControllerProtocol {
             textColor: CColor.custBlack,
             textAligment: .center
         )
-        setView(subView: subView)
+        setView(view: view, subView: subView)
         setConstraint()
     }
     
-    func setView(subView: [UIView]) {
-        for i in subView { view.addSubview(i) }
-    }
     
     func setConstraint() {
         NSLayoutConstraint.activate([

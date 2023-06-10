@@ -145,12 +145,8 @@ extension MovieDetailViewController: ViewControllerProtocol {
         objectTableView.separatorColor = .clear
         objectTableView.separatorInset = .zero
         
-        setView(subView: subView)
+        setView(view: view, subView: subView)
         setConstraint()
-    }
-    
-    func setView(subView: [UIView]) {
-        for i in subView { view.addSubview(i) }
     }
     
     func setConstraint()  {
