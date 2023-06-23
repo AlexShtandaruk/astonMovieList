@@ -1,6 +1,8 @@
 # AstonMovieList + MVP
-Приложение кинолента
+Test task for aston -> Приложение кинолента
 
+![приветствиеКит](https://github.com/AlexShtandaruk/astonMovieList/assets/125973696/dbfc4ecc-79f6-438b-a9db-8a4599dc9cf7)
+![работаКит](https://github.com/AlexShtandaruk/astonMovieList/assets/125973696/706deb78-22fa-4f15-b8b7-37808d8f21ac)
 
 # Использованный стек
 UIKit, URLSession, Router + Launcher, AssemblyBuilder, UserDefaults, GCD, CoreAnimation
@@ -14,7 +16,6 @@ UIKit, URLSession, Router + Launcher, AssemblyBuilder, UserDefaults, GCD, CoreAn
 - Созданы кастомные класс со стандартными методами, сервисами и т.д. (DRY)
 - Кастомные шрифты;
 - Кастомные цвета.
-
 
 # Описание
 
